@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  /* border-style: solid; */
+}
+
+h1:hover {
+  background-color: gold;
+  transition: 0.5s;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-style: solid;
+}
+
+#header_links {
+  display: flex;
+  justify-content: space-around;
+}
+
+#header_links > a {
+  text-decoration: none;
+  color: black;
+}
+
+.upper_links {
+  margin: .5em;
+}
+
+.upper_links:hover {
+  background-color: gold;
+  transition: .5s;
+}
+
+header > h1 {
+  margin: .5em;
+  font-style: italic;
+}
+
+#About {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
+  border-style: solid;
+}
+
+#About > h2 {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+#Work {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1em;
+}
+
+.wrapper {
+  border-style: solid;
+  margin: 1em;
+}
+
+#Work > * {
+  text-align: center;
+}
+
+.work_description {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#Contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-style: solid;
+  padding: .5em;
+}
+
+.instagram > *,
+.email > *,
+.phone-number > * {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.instagram > h6,
+.email > h6,
+.phone-number > h6 {
+  text-indent: 1em;
+}
+
+.email {
+  margin-bottom: .5em;
+  margin-top: .5em;
+}
+
+#Contact > h4 {
+  text-align: center;
+  margin-top: 0px;
+}
+
+#Fun {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: solid;
+  margin: 1em;
+}
+
+#Fun > * {
+  margin: 1em;
+}
+
+img {
+  max-width: 90%;
+  max-height: 350px;
+}
