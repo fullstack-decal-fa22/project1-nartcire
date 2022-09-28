@@ -35,6 +35,22 @@
       <div id="Fun">
         <img src="bonk.jpeg" alt="good dog getting bonked on the head">
         <button><a href="https://matias.ma/nsfw/" target="_blank">Do you trust me?</a></button>
+
+        <form id="js">
+          <label for="icecream">What is your favorite flavor of icecream? And why is it vanilla?</label>
+          <select name="icecream" id="icecream">
+            <option value="vanilla">Vanilla</option>
+            <option value="vanilla">vanilla</option>
+            <option value="vanilla">chocolate but with vanilla instead</option>
+            <input type="submit" value="Submit"/>
+          </select>
+        </form>
+
+        <script>
+          let form = document.querySelector('#js');
+          form.addEventListener("submit", () => alert('Good to see you comrade!'));
+        </script>
+
       </div>
       <div id="Contact">
         <h4>Contact Me!</h4>
